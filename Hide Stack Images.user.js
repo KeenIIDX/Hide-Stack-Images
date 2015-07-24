@@ -42,4 +42,5 @@ with_jquery(function($) {
 		$(this).children().toggle();
 	})
 
+	$(‘a > .pImageWrapper’).unwrap();
 });
